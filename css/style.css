@@ -57,7 +57,8 @@ svg {
 --------------------------- */
 
 .badge * {
-    transform-origin: 180px 180px;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
 }
 
 .outer,
